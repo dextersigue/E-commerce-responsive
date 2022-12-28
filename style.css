@@ -2,6 +2,7 @@
 
 html{
     box-sizing: border-box;
+    font-family: montserrat;
 }
 
 body{
@@ -70,7 +71,6 @@ a{
 #hero{
     background-image: url(images/hero4.png);
     height: 90vh;
-    width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 80px;
@@ -159,6 +159,91 @@ a{
 #feature .fe-box:last-child h5{
     background-color: #fff2e5;
 }
+
+
+/* product style */
+#product1{
+    text-align: center;
+}
+
+#product1  h2{
+    font-size: 50px;
+    margin: 0;
+}
+
+#product1 .pro{
+    margin: 0;
+    width: 23%;
+    min-width: 250px;
+    padding: 0 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    line-height: 1px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro-container{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#product1 h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#product1 a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+}
+
+
 
 
 
