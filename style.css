@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+/* Start Global Styling */
+
 html{
     box-sizing: border-box;
     font-family: montserrat;
@@ -19,7 +22,30 @@ a{
     text-decoration: none;
 }
 
-/* header start */
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+/* global button styling */
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+/* End Global Styling */
+
+/* Start header start */
 #header{
     display: flex;
     align-items: center;
@@ -67,7 +93,9 @@ a{
     left: 20px;
 }
 
-/* Home Page */
+/* End header start */
+
+/*Start Home Page */
 #hero{
     background-image: url(images/hero4.png);
     height: 90vh;
@@ -102,9 +130,6 @@ a{
     font-size: 15px;
 }
 
-.section-p1 {
-    padding: 40px 80px;
-}
 
 #feature{
     display: flex;
@@ -160,8 +185,10 @@ a{
     background-color: #fff2e5;
 }
 
+/*End Home Page */
 
-/* product style */
+
+/*Start Product Style */
 #product1{
     text-align: center;
 }
@@ -242,7 +269,46 @@ a{
     right: 10px;
     text-align: center;
 }
+/*End Product Style */
 
+/* Start Banner Style */
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1px;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/banner/b2.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+   
+    color: white;
+}
+
+#banner h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#banner p{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 5px 0;
+}
+
+#banner span{
+    color: #ef3636;
+}
+
+#banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+
+/* End Banner Style */
 
 
 
