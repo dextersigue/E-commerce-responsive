@@ -479,9 +479,82 @@ button.outline{
     border-top-left-radius: 0;
     border-bottom-left-radius:0;
 }
-
-
 /* End Newsletter section */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer.logo{
+    margin-bottom: 20px;
+}
+
+footer .col{
+ width: 20%;   
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 20px;
+ padding: 30px;
+}
+
+.col a:hover{
+    color: #088178;
+}
+
+footer .icon i{
+    color: #465b52;
+    padding-right: 4px;
+}
+
+.col .icon i:hover{
+    color: #088178;
+    cursor: pointer;
+}
+
+footer .row{
+    display: flex;
+    gap: 20px;
+    
+}
+
+footer .row img{
+    border: 1px solid #cce7d0;
+    width: 100px;
+    margin: 15px 0;
+}
+   
+
+
+footer h4{
+    font-size: 14px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .logo{
+    height: 30px;
+}
+
+footer .copyright{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
 
