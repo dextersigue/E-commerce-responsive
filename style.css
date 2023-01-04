@@ -813,7 +813,7 @@ footer {
     font-weight: 600;
 }
 
-/* Single Product */
+/* Single Product style*/
 #pro-details{
     display: flex;
     margin-top: 20px;
@@ -874,6 +874,23 @@ footer {
     background-color: #088178;
     color: #fff;
 }
+
+#pro-details .single-pro-image{
+    width: 100%;
+    margin-right: 0;
+}
+
+#pro-details .single-pro-details{
+    width: 100%;
+}
+
+@media (max-width: 477px){
+    #pro-details{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 
 
