@@ -226,7 +226,7 @@ button.outline{
 
 #product1 .pro{
     margin: 0;
-    width: 23%;
+    width: 20%;
     min-width: 250px;
     padding: 0 12px;
     border: 1px solid #cce7d0;
@@ -866,8 +866,13 @@ footer {
     margin-right: 10px;
 }
 
+.single-pro-details input:focus{
+    outline: none;
+}
+
 .single-pro-details button{
     background-color: #088178;
+    color: #fff;
 }
 
 
