@@ -21,26 +21,16 @@ if(close){
 // if click the small show in the main image
 
 
-    let mainImg = document.getElementById('mainImg');
-    let smallImg = document.getElementsByClassName('smallImg');
+    const mainImg = document.querySelector('#mainImg');
+    const smallImg = document.querySelector('.small-img-group');
+    const imgs = smallImg.querySelectorAll('img')
 
-    smallImg.addEventListener("click", showImage);
-
-    function showImage(){
-        for(j=0; j<smallImg.length; j++){
-         mainImg.src = smallImg[j].src;
+    for(img of imgs){
+        img.addEventListener('click', (e) =>{
+            let newImg = e.target.getAttribute('src')
+            mainImg.setAttribute('src', newImg)
+        })
     }
-  
-    for(i = 0; i < smallImg.length; i++){
-        smallImg[i].onclick = function(){
-               showImage();
-            }
-        }
-    }
-
-
-
-
 
 // smallImg[i].onclick = function(){
 //     mainImg.src = smallImg[i].src;
