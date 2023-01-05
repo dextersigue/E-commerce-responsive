@@ -18,10 +18,10 @@ if(close){
 
 //////////////////////////////// 
 //script of single product
-// if click the small show in the main image
+//if click the small show in the main image
 const mainImg = document.querySelector('#mainImg');
 const smallImg = document.querySelector('.small-img-group');
-const imgs = smallImg.querySelectorAll('img')
+const imgs = smallImg.querySelectorAll('img');
 
     for(img of imgs){
         img.addEventListener('click', (e) =>{
@@ -31,7 +31,7 @@ const imgs = smallImg.querySelectorAll('img')
     }
 
 //if click the image in shop page. html redirect to single page
-function myLink(){
+function productLink(){
     window.location.href="singleProduct.html"
 }
 
