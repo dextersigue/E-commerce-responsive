@@ -706,10 +706,6 @@ footer {
         background-position: 55%;
     }
 
-    #feature {
-        justify-content: space-between;
-    }
-
     #feature .fe-box{
         width: 130px;
         margin: 0 0 15px 0;
@@ -984,6 +980,76 @@ footer {
         width: 100%;
     }
 }
+
+/* About Style */
+#page-header.about-header{
+    background-image: url(images/about/banner.png);
+    width: 94%;
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-app{
+    text-align: center;
+}
+
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin:30px auto 0 auto;
+}
+
+.video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px){
+    #page-header.about-header{
+        width: auto;
+        height: 100px;
+    }
+}
+
+@media (max-width: 477px){
+    #about-head{
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #page-header h2, #page-header p {
+        color: #fff;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    #page-header{
+        width: auto;
+        height: 100px;
+    }
+
+    #about-head h2{
+        text-align: center;
+    }
+}
+
+
+
 
 
 
