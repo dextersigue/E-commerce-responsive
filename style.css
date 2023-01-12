@@ -123,17 +123,27 @@ header{
 
 /*Start Home Page */
 #hero{
-    background-image: url(images/hero4.png);
     height: 90vh;
-    background-size: cover;
-    background-position: top 25% right 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
+    position: relative;
 }
+
+.img-hero{
+    background-size: cover;
+    position: absolute;
+    top: -220px;
+    right: 0;
+}
+
+.img-hero img{
+    height: 700px;
+}
+
+
 
 #hero h2,h3{
     margin: 0;
@@ -622,10 +632,24 @@ footer .copyright{
 }
 
 #hero { 
-    height: 90vh;
+    height: 70vh;
     padding: 0px 80px;
-    background-position: top 30% right 30%; 
 }
+
+
+.img-hero{
+    height: 100%;
+    z-index: -2;
+    top: -100px;
+    left: 267px;
+}
+
+.img-hero img{
+    height: 100%;
+    width: 100%;
+}
+
+
 
 #feature {
     justify-content: center;
@@ -703,8 +727,12 @@ footer {
 
     #hero{
         padding: 0 20px;
-        background-position: 55%;
     }
+
+    .img-hero{
+        left: 0;
+    }
+    
 
     #feature .fe-box{
         width: 130px;
@@ -1205,7 +1233,7 @@ footer {
     white-space: nowrap;
 }
 
-#cart img{
+#cart tbody img{
     width: 70px;
 }
 

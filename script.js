@@ -35,19 +35,5 @@ function productLink(){
     window.location.href="singleProduct.html"
 }
 
-// smallImg[i].onclick = function(){
-//     mainImg.src = smallImg[i].src;
-// }
 
-// smallImg[1].onclick = function(){
-//     mainImg.src = smallImg[1].src;
-// }
-
-// smallImg[2].onclick = function(){
-//     mainImg.src = smallImg[2].src;
-// }
-
-// smallImg[3].onclick = function(){
-//     mainImg.src = smallImg[3].src;
-// }
 
